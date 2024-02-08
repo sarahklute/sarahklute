@@ -167,16 +167,42 @@ window.onclick = function(event) {
   }
 }
 
+//BUTTON 5
+var modal6 = document.getElementById("modal6");
+
+// Get the button that opens the modal
+var btnModal6 = document.getElementById("btn6");
+
+// Get the <span> element that closes the modal
+var spanModal6 = document.getElementsByClassName("closeModal6")[0];
+
+// When the user clicks on the button, open the modal
+btnModal6.onclick = function() {
+  modal6.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal6.onclick = function() {
+  modal6.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal6) {
+    modal6.style.display = "none";
+  }
+}
+
 
 
 //BUTTON 6 -- links to outside website
-var btn6 = document.getElementById("btn6");
-btn6.onclick = function() {
+var btn7 = document.getElementById("btn7");
+btn7.onclick = function() {
   window.open("https://huntnewsnu.com/72829/campus/northeastern-police-department-releases-2023-annual-security-report/", "_blank") //TODO add your link
 }
 
 //BUTTON 7 -- links to outside website
-var btn7 = document.getElementById("btn7");
-btn7.onclick = function() {
+var btn8 = document.getElementById("btn8");
+btn8.onclick = function() {
   window.open("https://www.storybench.org/5-ways-news-organizations-are-visualizing-election-data/", "_blank") //TODO add your link
 }
