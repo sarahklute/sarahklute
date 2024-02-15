@@ -48,37 +48,49 @@
     font-weight: 400;
     color: black;
   }
-  
-  .time-text {
+
+  .interest-text {
     font-family: 'Rubik', sans-serif;
     font-size: 1.2rem;
     font-weight: 200;
     color: black;
   }
-  
+
+  .time-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.0rem;
+    font-weight: 200;
+    color: black;
+  }
+
   .header-text {
     width: 80%
   }
-  
+
   .header-image {
     width: 65%;
     height: 65%;
   }
-  
+
   .col {
     padding-bottom: 30px;
   }
-  
+
   .rounded-corners {
     border-radius: 20px;
     height: 300px;
   }
-  
+
+  .final-corners {
+    border-radius: 40px;
+    height: 500px;
+  }
+
   .title-image {
     border-radius: 20px;
     width: 80%;
   }
-  
+
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -91,7 +103,7 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-  
+
   .modal-content {
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
@@ -100,63 +112,68 @@
     width: 80%; /* Could be more or less, depending on screen size */
     border-radius: 3%;
   }
-  
+
   .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
   }
-  
+
   ul {
     list-style-position: inside;
     list-style-type: square;
   }
-  
+
   .flex-container {
     display: flex;
     flex-wrap: wrap;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .flex-container-reverse {
     display: flex;
     flex-wrap: wrap;
     font-size: 30px;
     text-align: center;
   }
-  
+
   .big-container-left {
     flex: 70%;
     padding: 10px;
     text-align: left;
   }
-  
+
   .small-container-right {
     flex: 30%;
     padding: 10px;
     text-align: right;
   }
-  
+
   .big-container-right {
     flex: 70%;
     padding: 10px;
     text-align: left;
   }
-  
+
   .small-container-left {
     flex: 30%;
     padding: 10px;
     text-align: left;
   }
+
+  .center {
+  text-align: center;
+}
+
   
   /* Contact me section */
   
