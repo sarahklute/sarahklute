@@ -111,6 +111,58 @@ window.onclick = function(event) {
   }
 }
 
+//WORLD HAPPINESS REPORT -- BUTTON 9
+var modal9 = document.getElementById("modal9");
+
+// Get the button that opens the modal
+var btnModal9 = document.getElementById("btn9");
+
+// Get the <span> element that closes the modal
+var spanModal9 = document.getElementsByClassName("closeModal9")[0];
+
+// When the user clicks on the button, open the modal
+btnModal9.onclick = function() {
+  modal9.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal9.onclick = function() {
+  modal9.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal9) {
+    modal9.style.display = "none";
+  }
+}
+
+//Beanpot -- BUTTON 9
+var modal10 = document.getElementById("modal10");
+
+// Get the button that opens the modal
+var btnModal10 = document.getElementById("btn10");
+
+// Get the <span> element that closes the modal
+var spanModal10 = document.getElementsByClassName("closeModal10")[0];
+
+// When the user clicks on the button, open the modal
+btnModal10.onclick = function() {
+  modal10.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal10.onclick = function() {
+  modal10.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal10) {
+    modal10.style.display = "none";
+  }
+}
+
 
 
 //BUTTON 4
@@ -195,13 +247,13 @@ window.onclick = function(event) {
 
 
 
-//BUTTON 6 -- links to outside website
+//BUTTON 7 -- links to outside website
 var btn7 = document.getElementById("btn7");
 btn7.onclick = function() {
   window.open("https://huntnewsnu.com/72829/campus/northeastern-police-department-releases-2023-annual-security-report/", "_blank") //TODO add your link
 }
 
-//BUTTON 7 -- links to outside website
+//BUTTON 8 -- links to outside website
 var btn8 = document.getElementById("btn8");
 btn8.onclick = function() {
   window.open("https://www.storybench.org/5-ways-news-organizations-are-visualizing-election-data/", "_blank") //TODO add your link

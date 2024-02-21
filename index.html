@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Personal Website</title>
+    <title>Personal Website update</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="granim.min.js"></script>
@@ -22,13 +22,13 @@
           <p style="padding-top: 25px; color: white;" id="app"></p>
         </div>
 
-        <h2 style="padding-bottom: 10px; padding-top: 10px;">About Me:</h2>
+        <h2 style="padding-bottom: 10px; padding-top: 10px;">About Me</h2>
 
         <!-- Introduction -->
         <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 20px;">
           <div class="big-container-left" style="">
-            <p style="padding-bottom: 5px;">My name is Sarah Klute, and I am second year studying student at Northeastern University and a Candidate 
-                for B.S. Data Science and International Affairs with a concentration in the Middle East and a minor 
+            <p style="padding-bottom: 5px;">My name is Sarah Klute, and I am second year studying student at Northeastern University and a Candidate
+                for B.S. Data Science and International Affairs with a concentration in the Middle East and a minor
                 in Computational Social Sciences. I am passionate about combating data misinformation, especially
                 in the media, as well as sports analytics. I currently hold a leadership position in Kappa Delta as Points Chair
                 and previously as Parents Club Chair and on the Social Justice and Education Committee. I am from Seattle Washington and
@@ -38,7 +38,7 @@
             <p class="interest-text">Sports Interests: Formula 1 | Boxing | Football | Baseball | Back-country Skiing | Rock Climbing</p>
 
             <p class="padding-bottom: 3px;">Get to know more on... <a href="https://www.linkedin.com/in/sarahklute/">Linkedin </a>,
-                <a href="https://github.khoury.northeastern.edu/sarahklute">Github</a>, <a href="https://drive.google.com/file/d/1xgIQeSLU0iMU7MyKKebldc5S3WuFh8-A/view?usp=sharing">Resume</a>  </p>
+                <a href="https://github.khoury.northeastern.edu/sarahklute">Github</a>, <a href="https://drive.google.com/file/d/1a1YplKesFiSr8ejSt5wh4Vn70hTsp6Ut/view?usp=sharing">Resume</a>  </p>
         </div>
           <div class="small-container-right">
             <img src="images/senior.JPG" class="title-image">
@@ -48,7 +48,219 @@
 
         <h2 style="padding-bottom: 20px">My Projects</h2>
 
-      <!-- Current Project #2 -->
+      <!-- MISINFORMATION DASHBOARD -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>Beanpot Dashboard</h3>
+            <p class="time-text">February 2024</p> <!--Add your own dates-->
+            <p>In Tableau Designed interactive dashboard to provide insights into the historical Boston Beanpot tournament
+            between Northeaster, Harvard, Boston College and Boston University.</p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn10">See more</button>
+          </div>
+          <div class="small-container-right">
+            <img src="images/short_timeline.png" class="title-image">
+          </div>
+        </div>
+
+        <!-- Modal for Button #2 - change inside information such as images and text to make it your own-->
+        <div id="modal10" class="modal">
+          <div class="modal-content">
+            <span class="closeModal10">&times;</span>
+            <h2>Beanpot Dashboard </h2>
+            <br>
+            <div id="carouselIndicators2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/harvard.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/bottom.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/timeline.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div class="center">
+            <p> Explore Tableau Public Dashboard: <a href="https://public.tableau.com/app/profile/sarah.klute/viz/Beanpot_17083257360830/FINALDASHBOARD?publish=yes" target="_blank">here</a></p>
+            <p>The Beanpot is the annual men's and women's ice hockey tournament where Northeastern competes against BC,
+              BU and Harvard for annual bragging rights. The tournament lasts two rounds, with first-round opponents
+              being rotated from year to year. The second round features the consolation game and the championship game.</p>
+            <p>Technical Skills:</p>
+            <ul>
+              <li>Tableau</li>
+              <li>Relational Database</li>
+              <li>Dashboarding</li>
+              <li>Github</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- WORLD HAPPINESS REPORT -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>World Happiness Report 2021</h3>
+            <p class="time-text">February 2024</p>
+            <p>Utilized Mongo Database PyMongo implementation to visualize the 2021 World Happiness report. Created
+              Choropleth maps to illustrate Ladder Score (Happiness Level) and Corruption Percentage by country. Presented
+              Explanations for Ladder Scores through bar graphs.
+              </p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn9">See More</button>
+          </div>
+          <div class="small-container-right">
+            <img src="images/ladder.png" class="title-image">
+          </div>
+        </div>
+
+        <!-- WORLD HAPPINESS REPORT-->
+        <div id="modal9" class="modal">
+          <div class="modal-content">
+            <span class="closeModal9">&times;</span>
+            <h2>World Happiness Report 2021</h2>
+            <br>
+            <div id="carouselIndicators9" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Top_Explanation.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/corruption.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/region_exp.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p> See github code: <a href="https://github.com/sarahklute/whr_2021" target="_blank">here</a></p>
+            <p>he World Happiness Report, collected by partnerships of Gallup, Oxford Wellbeing Research Center,
+              UN Sustainable Development Solutions Network and the WHRs Editorial Board reflect on the worldwide
+              demand for more attention to happiness and the relation to government policy. The Report reviews the
+              state of happiness in the world today and explores the science of happiness and provides explanations to
+              personal and national variations in happiness. This topic is highly important on an international level
+              with the UN attention within development goals, specifically Resolution 65/309 “Happiness: Towards a
+              holistic approach to development” which was adopted by the General Assembly of the United Nations on
+              July 19th 2011. </p>
+            <div class="center">
+              <p>Skills learned:</p>
+              <ul>
+                <li>Mongo Database</li>
+                <li>PyMongo Python Implimentation</li>
+                <li>Choropleth Map</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- MLB PITCHERS -->
+        <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
+          <div class="big-container-left">
+            <h3>MLB Pitcher Salary Predictor</h3>
+            <p class="time-text">May 2022</p> <!--Add your own dates-->
+            <p>Designed a machine learning Random Forest Regression model to optimize predictions of MLB
+              pitcher salaries based on their significant statistics. Processed and cleaned csv files into Data Frames,
+              explored visualizations for trends within the dataset and utilized correlation matrix and feature importance
+              to optimize machine learning model.
+              </p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn3">See More</button>
+          </div>
+          <div class="small-container-right">
+            <img src="images/mlb.png" class="title-image">
+          </div>
+        </div>
+
+
+        <!-- Modal for Button #4 - change inside information such as images and text to make it your own-->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <span class="closeModal3">&times;</span>
+            <h2>MLB Pitcher Salary Predictor</h2>
+            <br>
+            <div id="carouselIndicators3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/proj_mlb.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/logo.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/logo.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <br>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+            <p> See full paper <a href="https://drive.google.com/file/d/1YzYEWWNJgzWYUu7qm_v3NCwZ49eL5xBJ/view?usp=sharing" target="_blank">here</a></p>
+            <p> See github code: <a href="https://github.khoury.northeastern.edu/sarahklute/MLB_Pitching" target="_blank">here</a></p>
+            <p>Our MLB project looks at a variety of pitching statistics for each year a pitcher played throughout the
+              course of their career. Included in this data are stats such as Earned Run Average (a traditional pitcher
+              stat that averages the number of runs given up by a pitcher in a full game), Opponent Batting Average
+              (what percent of batters get a hit), salary, and their years of experience. The salary of MLB pitchers
+              has been gradually increasing over time (see graph), so seeing what factors effect salary gives an insight
+              into the driving forces behind pitchers salary. Using individual pitcher statistics, we have created a
+              machine learning model that predicts most accurately their lifetime career earnings. This predictor reveals
+              to teams and pitchers alike the most impactful statistics on salary and what they should expect to pay
+              players of certain caliber. This can improve player decision when accepting offers as well as a teams
+              decision in who they should offer contracts too and furthermore how that salary offer will grow throughout
+              their career.</p>
+            <div class="center">
+              <p>Project Goals:</p>
+              <ul>
+                <li>Can we predict a MLB pitcher's future salary based on their past and current pitcher statistics?</li>
+                <li>What pitching statistics have the greatest effect on the salary of a pitcher?</li>
+              </ul>
+              <p>Skills learned:</p>
+              <ul>
+                <li>Machine Learning Regression Models</li>
+                <li>Github, team collaboration to code</li>
+              </ul>
+              <p>Worked in collaboration with Abby Elbaum, JP Olson, and Jackson Goodman</p>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- MISINFORMATION DASHBOARD -->
         <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
           <div class="big-container-left">
             <h3>Misinformation Dashboard</h3>
@@ -120,30 +332,28 @@
         </div>
 
 
-        <!-- Current Project #3 -->
+         <!-- Twitter API -->
         <div class="flex-container-reverse" style="padding-bottom: 50px; padding-top: 40px;">
           <div class="big-container-left">
-            <h3>MLB Pitcher Salary Predictor</h3>
-            <p class="time-text">May 2022</p> <!--Add your own dates-->
-            <p>Designed a machine learning Random Forest Regression model to optimize predictions of MLB
-              pitcher salaries based on their significant statistics. Processed and cleaned csv files into Data Frames,
-              explored visualizations for trends within the dataset and utilized correlation matrix and feature importance
-              to optimize machine learning model.
-              </p>
-            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn3">See More</button>
+            <h3>Twitter: Posting Tweets and User Hometimeline</h3>
+            <p class="time-text">January 2024</p> <!--Add your own dates-->
+            <p>Invented program that read in pre-generated tweets and followers and tested the limits of MySQL database.
+            Designed framework so that driver code calls API method which could be swapped out for relational MySQL or
+              non relational Rediis. Re-implimented with API using Redis and compared processing speeds.</p>
+            <button style="padding-bottom: 5px;" type="button" class="btn btn-outline-success" id="btn6">See More</button>
           </div>
           <div class="small-container-right">
-            <img src="images/mlb.png" class="title-image">
+            <img src="images/redis.png" class="title-image">
           </div>
         </div>
 
-        <!-- Modal for Button #4 - change inside information such as images and text to make it your own-->
-        <div id="modal3" class="modal">
+      <!-- Modal for Button #4 - change inside information such as images and text to make it your own-->
+        <div id="modal6" class="modal">
           <div class="modal-content">
-            <span class="closeModal3">&times;</span>
-            <h2>MLB Pitcher Salary Predictor</h2>
+            <span class="closeModal6">&times;</span>
+            <h2>Twitter Implimentation MySQL and Redis</h2>
             <br>
-            <div id="carouselIndicators3" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselIndicators6" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -151,7 +361,7 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="images/proj_mlb.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
+                  <img src="images/redis.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="images/logo.png" style="height: 400px; object-fit: contain; width: 100%;" class="d-block w-100" alt="...">
@@ -161,41 +371,25 @@
                 </div>
               </div>
               <br>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators6" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators6" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
           </div>
-            <p> See full paper <a href="https://drive.google.com/file/d/1YzYEWWNJgzWYUu7qm_v3NCwZ49eL5xBJ/view?usp=sharing" target="_blank">here</a></p>
-            <p> See github code: <a href="https://github.khoury.northeastern.edu/sarahklute/MLB_Pitching" target="_blank">here</a></p>
-            <p>Our MLB project looks at a variety of pitching statistics for each year a pitcher played throughout the
-              course of their career. Included in this data are stats such as Earned Run Average (a traditional pitcher
-              stat that averages the number of runs given up by a pitcher in a full game), Opponent Batting Average
-              (what percent of batters get a hit), salary, and their years of experience. The salary of MLB pitchers
-              has been gradually increasing over time (see graph), so seeing what factors effect salary gives an insight
-              into the driving forces behind pitchers salary. Using individual pitcher statistics, we have created a
-              machine learning model that predicts most accurately their lifetime career earnings. This predictor reveals
-              to teams and pitchers alike the most impactful statistics on salary and what they should expect to pay
-              players of certain caliber. This can improve player decision when accepting offers as well as a teams
-              decision in who they should offer contracts too and furthermore how that salary offer will grow throughout
-              their career.</p>
-            <div class="center">
-              <p>Project Goals:</p>
-              <ul>
-                <li>Can we predict a MLB pitcher's future salary based on their past and current pitcher statistics?</li>
-                <li>What pitching statistics have the greatest effect on the salary of a pitcher?</li>
-              </ul>
-              <p>Skills learned:</p>
-              <ul>
-                <li>Machine Learning Regression Models</li>
-                <li>Github, team collaboration to code</li>
-              </ul>
-              <p>Worked in collaboration with Abby Elbaum, JP Olson, and Jackson Goodman</p>
-            </div>
+            <p> See github MySQL code: <a href="https://github.com/sarahklute/twitter_msql.git" target="_blank">here</a></p>
+            <p> See github Redis code: <a href="https://github.com/sarahklute/twitter_redis.git" target="_blank">here</a></p>
+            <p>Comparison of relational MySQL and non-relational Redis</p>
+            <p>Skills Learned:</p>
+            <ul>
+              <li>SQL and NoSQL Databases</li>
+              <li>Redis</li>
+              <li>Pipelines and Frameworks</li>
+              <li>Re-usable driver code </li>
+            </ul>
           </div>
         </div>
 
@@ -258,7 +452,7 @@
                 and Islamic discourse influence on sexual and reproductive health rights for women in Morocco and Tunisia. </li>
               <li>In more than 5500 words, drew on regional analysis and literature review and theory to draw conclusions.</li>
             </ul>
-            <p>Research Conducted in Women in World Politics INTL 2718</p>
+            <p>Research Conducted in Women in World Poltiics INTL 2718</p>
           </div>
         </div>
 
@@ -364,7 +558,7 @@
             <span class="closeModal5">&times;</span>
             <h2>NLP Political Speeches</h2>
             <br>
-            <div id="carouselIndicators4" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselIndicators5" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -382,11 +576,11 @@
                 </div>
               </div>
               <br>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators5" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators4" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators5" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -405,6 +599,9 @@
 
 
 
+
+
+
         <!-- Completed projects -->
         <h2 style="padding-bottom: 20px">Publications</h2>
 
@@ -419,7 +616,7 @@
             <p class="time-text">October 2023</p>
             <p style="padding-bottom: 10px;">Article reporting on Northeaster Police Department report on rise in crime rates over the
               last few years. Created simple visualizations to support journalists findings.</p>
-            <button type="button" class="btn btn-outline-success" id="btn6">See Article</button>
+            <button type="button" class="btn btn-outline-success" id="btn7">See Article</button>
           </div>
         </div>
 
@@ -433,7 +630,7 @@
             <p class="time-text">November 2023</p>
             <p style="padding-bottom: 10px;">Article I wrote for Storybench at Northeastern highlighting ways news outlets
             have visualized election data in the past, highlighting the strengths and weaknesses.</p>
-            <button type="button" class="btn btn-outline-success" id="btn7">See Article</button>
+            <button type="button" class="btn btn-outline-success" id="btn8">See Article</button>
           </div>
         </div>
 
