@@ -245,6 +245,32 @@ window.onclick = function(event) {
   }
 }
 
+//Link Health -- BUTTON 11
+var modal11 = document.getElementById("modal11");
+
+// Get the button that opens the modal
+var btnModal11 = document.getElementById("btn11");
+
+// Get the <span> element that closes the modal
+var spanModal11 = document.getElementsByClassName("closeModal11")[0];
+
+// When the user clicks on the button, open the modal
+btnModal11.onclick = function() {
+  modal11.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal11.onclick = function() {
+  modal11.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal11) {
+    modal11.style.display = "none";
+  }
+}
+
 
 
 //BUTTON 7 -- links to outside website
