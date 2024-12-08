@@ -11,7 +11,7 @@ typewriter
   .pauseFor(3000)
   .start()
 
-
+console.log('Hello! Welcome to my portfolio. Feel free to reach out to me at:')
 var granimInstance = new Granim({
     element: '#canvas-image-blending',
     direction: 'top-bottom',
