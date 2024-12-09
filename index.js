@@ -271,6 +271,58 @@ window.onclick = function(event) {
   }
 }
 
+//Link Health -- BUTTON 12
+var modal12 = document.getElementById("modal12");
+
+// Get the button that opens the modal
+var btnModal12 = document.getElementById("btn12");
+
+// Get the <span> element that closes the modal
+var spanModal12 = document.getElementsByClassName("closeModal12")[0];
+
+// When the user clicks on the button, open the modal
+btnModal12.onclick = function() {
+  modal12.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal12.onclick = function() {
+  modal12.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal12) {
+    modal12.style.display = "none";
+  }
+}
+
+//GENIE -- BUTTON 13
+var modal13 = document.getElementById("modal13");
+
+// Get the button that opens the modal
+var btnModal13 = document.getElementById("btn13");
+
+// Get the <span> element that closes the modal
+var spanModal13 = document.getElementsByClassName("closeModal13")[0];
+
+// When the user clicks on the button, open the modal
+btnModal13.onclick = function() {
+  modal13.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanModal13.onclick = function() {
+  modal13.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal13) {
+    modal13.style.display = "none";
+  }
+}
+
 
 
 //BUTTON 7 -- links to outside website
