@@ -250,4 +250,28 @@
     }
   }
 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none; /* Remove the default icon */
+    width: 40px; /* Increase width */
+    height: 40px; /* Increase height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-control-prev-icon::after {
+    content: '\2190'; /* Use a Unicode left arrow */
+    color: blue; /* Set the color of the arrow */
+    font-size: 30px; /* Increase size for visibility */
+    font-weight: bold; /* Make the arrow bolder */
+  }
+
+  .carousel-control-next-icon::after {
+    content: '\2192'; /* Use a Unicode right arrow */
+    color: blue; /* Set the color of the arrow */
+    font-size: 30px; /* Increase size for visibility */
+    font-weight: bold; /* Make the arrow bolder */
+  }
+  
   
